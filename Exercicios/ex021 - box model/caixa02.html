@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            background-color:azure ;
+        }
+        section{
+            font-family: 'Courier New', Courier, monospace;
+            background-color: rgb(221, 167, 148);
+        }
+        article{
+            background-color:rgb(107, 110, 110);
+        }
+        aside {
+            color: rgb(8, 8, 48);
+            background-color: blueviolet;
+        }
+        nav{
+            background-color: rgb(222, 222, 252);
+            padding: 10px;
+            margin: 1px;
+            box-shadow: 10px 10px 10px black;
+            border-radius: 10px;
+        }
+        nav > a:hover{ 
+            background-color: chartreuse;
+        }
+    </style>
+</head>
+<body>
+    <header> 
+        <h1>Meu sítio</h1>
+        <nav>
+            <p>nav inside header</p>
+            <a href="#">linking</a>
+            <a href="#">linking</a>
+        </nav>
+
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>section "assuntos" inside main</p>
+            <p>Assunto Principal</p>
+        </section>
+        <section id="noticias">
+            <p>section "noticias" inside main</p>
+            <article>
+                <h1>Heading 1 of article 1 inside section noticias</h1>
+                <p>paragraph of article 1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam placeat cum est labore ullam iusto optio, laboriosam veniam veritatis cumque architecto aut omnis dicta expedita eligendi! Corrupti sed necessitatibus doloribus.</p>
+            </article>
+            <aside>
+                <p>aside inside section noticias</p>
+                <p>artigo escrito por josé da silva</p>
+            </aside>
+            <article>
+                <p>paragraph of artigo 2 inside section noticias</p>
+            </article>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em css</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            /*
+            Medidas Absolutas
+            cm, mm, in, px, pt, pc
+
+            Medidas Relativas
+            em (relativa ao M maiúsculo da fonte), ex (relativo a altura-x), rem, vw (largura da view port, tamanho da tela), vh, %.
+
+            A W3C recomenda px ou em.
+
+            geralmente: 16px é o tamanho "natural do dispositivo" e equivale a 1em.
+             */
+            font-size: 16px;
+            font-style: italic;
+            font-weight: bold; /*negrito*/
+        }
+        h1{
+            /*shorthands font
+            font-style --> font-weight --> font-size -->font-family.
+            */
+            font:italic bold 2em serif;/* pode-se suprimir uma ou mais*/
+            font: bold 2em serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes- cap 14</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint ullam explicabo, tenetur labore, eum velit voluptatibus magni quibusdam voluptates natus possimus voluptatem illo assumenda, dolore ratione sapiente. Unde, placeat adipisci?</p>
+    <h2>Subtítulo do exercício 17</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt accusamus obcaecati dolores commodi blanditiis enim dolor, asperiores illum eligendi nisi cumque molestiae quis iste ratione. Repellat quibusdam eius natus quo.</p>
+</body>
+</html>
