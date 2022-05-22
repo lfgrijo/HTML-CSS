@@ -20,6 +20,7 @@
             border: 1px solid gray;
             padding: 10px;
         }
+
         td{
             text-align: center;
         }
@@ -30,6 +31,9 @@
         .num{
             text-align: right;
         }
+        caption{
+            padding: 10px;
+        }
     </style>
 </head>
 <body>
@@ -37,6 +41,7 @@
     <!-- 
         Anatomia de tabelas grandes
         Table
+            Caption
             THead
                 tr, td, th
             TBody
@@ -45,10 +50,11 @@
                 tr, td, th
     -->
     <Table>
+        <caption>População nas Unidades Federativas</caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 50px">População</th>
             </tr>
             
         </thead>
@@ -67,7 +73,7 @@
             </tr>
         </tbody>
         <tfoot>
-            <th>Total Habitantes</th>
+            <th scope="row">Total Habitantes</th>
             <td class="num"><strong>96.919.000</strong></td>
         </tfoot>
     </Table>
