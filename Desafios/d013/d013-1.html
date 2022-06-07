@@ -21,37 +21,75 @@
             padding: 5px;
             border: 1px solid black;
         }
+        main{
+            background-color: antiquewhite;
+        }
+        aside{
+            padding: 20px;
+            margin-left: -20px;
+        }
 
     </style>
 </head>
 <body>
+    <Main>
     <h1>Tabela 1 / Desafio 13</h1>
-    <table>
-        <tr>
-            <td colspan="4">A</td>
-            <td rowspan="4">B</td>
-        </tr>
-        <tr>
-            <td rowspan="4">C</td>
-            <td>d</td>
-            <td>e</td>
-            <td>f</td>
-        </tr>
-        <tr>
-            <td>g</td>
-            <td>h</td>
-            <td>i</td>
-        </tr>
-        <tr>
-            <td>j</td>
-            <td>k</td>
-            <td>l</td>
-        </tr>
-        <tr>
-            <td colspan="4">m</td>
-        </tr>
-
-
-    </table>
+    <section>
+        <table>
+            <tr>
+                <td colspan="4">A</td>
+                <td rowspan="4">B</td>
+            </tr>
+            <tr>
+                <td rowspan="4">C</td>
+                <td>d</td>
+                <td>e</td>
+                <td>f</td>
+            </tr>
+            <tr>
+                <td>g</td>
+                <td>h</td>
+                <td>i</td>
+            </tr>
+            <tr>
+                <td>j</td>
+                <td>k</td>
+                <td>l</td>
+            </tr>
+            <tr>
+                <td colspan="4">m</td>
+            </tr>
+        </table>
+    </section>
+    </Main>
+    <aside>
+        <table>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td rowspan="2">3</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>6</td>
+                <td>7</td>
+            </tr>
+            <tr>
+                <td colspan="3">8</td>
+                <td>9</td>
+            </tr>
+            <tr>
+                <td rowspan="2">10</td>
+                <td colspan="2">11</td>
+                <td>12</td>
+            </tr>
+            <tr>
+                <td>13</td>
+                <td>14</td>
+                <td>15</td>
+            </tr>
+        </table>
+    </aside>
 </body>
 </html>
